@@ -1,0 +1,113 @@
+/* css styles */
+
+
+
+/* Links color */
+/* text */
+a {
+  color: #005CAD !important; 
+}
+/* when the mouse is over the text */
+a:hover {
+  color: #BAB202 !important;
+}
+/* navbar color */
+.navbar {
+  background-color: #333333 !important;
+}
+/* navbar's text and links Colors */
+.navbar .navbar-nav .nav-link {
+  color: #FFFFFF !important; 
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #1C87ED !important;
+}
+/* navbar's title */
+.navbar-brand {
+  color: #FFFFFF !important;
+}
+.navbar-brand:hover {
+  color: #1C87ED !important;
+}
+.navbar .dropdown-menu {
+  background-color: #333333;
+  border-radius: 5px;
+}
+.navbar .dropdown-menu a {
+  color: #FFFFFF !important;
+}
+.navbar .dropdown-menu a:hover {
+  background-color: #333333;
+  color: #1C87ED !important;
+}
+
+
+
+
+
+/* Customisation of TOC */
+/* box of the TOC */
+#TOC {
+  background-color: #333333;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+/* vertical line left to the sections */
+#TOC .nav-link.active {
+  border-left: 1px solid #1C87ED;
+  padding-left: 0.5rem;
+}
+
+/* title */
+#TOC h2, #TOC h3 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #FFFFFF !important;
+  margin-bottom: 0.5rem;
+}
+
+/* text links */
+#TOC a {
+  color: #FFFFFF !important;
+  text-decoration: none;
+}
+
+/* links when the mouse is over the text */
+#TOC a:hover {
+  color: #1C87ED !important;
+  text-decoration: none;
+}
+/* links when the section is active */
+#TOC a.active {
+  font-weight: bold;
+  color: #1C87ED !important;
+}
+
+
+
+
+
+/* Customisaton of the "details lists" */
+<style>
+summary {
+}
+
+details[open] summary {
+  background-color: #333333; /* background color when opening the details */
+  Color: #FFFFFF;
+  padding: 2px;
+}
+
+details[open] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1.5px solid #000000;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+details p {
+  text-align: justify;
+}
+</style>
